@@ -1,0 +1,13 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  my_job:
+    name: run maestro
+    runs-on: macOS-13
+    steps: 
+    - uses: actions/checkout@v4
+    - name: install Maestro
+      run: |
+       brew tap mobile-dev-inc/tap
+       brew install maestro
