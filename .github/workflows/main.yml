@@ -22,3 +22,8 @@ jobs:
 
     - name: list simulators
       run: xcrun simctl list devices
+
+    - name: launch simulator
+      run: xcrun simctl boot iPhone 15 Pro Max
+
+ 
