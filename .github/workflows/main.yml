@@ -11,3 +11,7 @@ jobs:
       run: |
        brew tap mobile-dev-inc/tap
        brew install maestro
+
+    - name: check maestro version
+      run: |
+       maestro --version
