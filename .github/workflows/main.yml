@@ -19,3 +19,6 @@ jobs:
     - name: download maestro samples
       run: |
        maestro download-samples
+
+    - name: list simulators
+      run: xcrun simctl list devices
