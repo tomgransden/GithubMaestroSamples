@@ -15,3 +15,7 @@ jobs:
     - name: check maestro version
       run: |
        maestro --version
+
+    - name: download maestro samples
+      run: |
+       maestro download-samples
